@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-12T02:55:58Z" name="ShopLTK Sign Up" finished-at="2022-10-12T02:56:14Z" duration-ms="15662">
+    <groups>
+    </groups>
+    <test started-at="2022-10-12T02:55:58Z" name="regression Signup Test" finished-at="2022-10-12T02:56:14Z" duration-ms="15662">
+      <class name="test.regression.ShopLTKsignUpTest">
+        <test-method is-config="true" signature="beforeAllTestCase()[pri:0, instance:[ShopLTKsignUpTest passed=0 failed=0 skipped=0]]" started-at="2022-10-12T02:55:58Z" name="beforeAllTestCase" finished-at="2022-10-12T02:55:58Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.String)[pri:0, instance:[ShopLTKsignUpTest passed=0 failed=0 skipped=0]]" started-at="2022-10-12T02:55:58Z" name="beforeEachTestCase" finished-at="2022-10-12T02:56:01Z" duration-ms="2935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TestCase_001_CoSignIn()[pri:0, instance:[ShopLTKsignUpTest passed=0 failed=0 skipped=0]]" started-at="2022-10-12T02:56:01Z" name="TestCase_001_CoSignIn" finished-at="2022-10-12T02:56:13Z" duration-ms="11654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_001_CoSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:[ShopLTKsignUpTest passed=0 failed=0 skipped=0]]" started-at="2022-10-12T02:56:13Z" name="tearDown" finished-at="2022-10-12T02:56:14Z" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterAllTestCase()[pri:0, instance:[ShopLTKsignUpTest passed=0 failed=0 skipped=0]]" started-at="2022-10-12T02:56:14Z" name="afterAllTestCase" finished-at="2022-10-12T02:56:14Z" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTestCase -->
+      </class> <!-- test.regression.ShopLTKsignUpTest -->
+    </test> <!-- regression Signup Test -->
+  </suite> <!-- ShopLTK Sign Up -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Teklab Capital One Login]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.reportRelated.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="regression Login Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.regression.CapitalOneSignInTest">
+        <methods>
+          <include name="TestCase_001_CoSignIn"/>
+          <include name="afterAllTestCase"/>
+          <include name="beforeAllTestCase"/>
+          <include name="beforeEachTestCase"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.regression.CapitalOneSignInTest -->
+    </classes>
+  </test> <!-- regression Login Test(failed) -->
+</suite> <!-- Failed suite [Teklab Capital One Login] -->

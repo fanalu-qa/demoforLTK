@@ -1,0 +1,17 @@
+{
+    "TestCase_001":{
+        "FirstName":"Emily",
+        "LastName":"Rickards",
+        "email":"eBett@yahoo.com",
+        "password":"felicitySmoak",
+        "CaseCount":"47"
+    },
+    
+    "TestCase_004":{
+        "FirstName":"Caitlin",
+        "LastName":"Snow",
+        "email":"cSnow@email.com",
+        "password":"frost9999",
+        "CaseCount":"68"
+    }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Please make sure it is http NOT https -->
+
+
+<suite name="ShopLTK Sign Up" parallel="none">
+	<test name="regression Signup Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="test.regression.ShopLTKsignUpTest" />
+		</classes>
+	</test>
+
+
+	<!-- Test listener to be included in the future -->
+	<listeners>
+		<listener class-name="utilities.reportRelated.TestListener" />
+	</listeners>
+
+
+</suite>
