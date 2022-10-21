@@ -13,7 +13,7 @@ public class JDBCManager {
 
 	// Constant for Database URL
 	// URL Syntax if using mysql: "jdbc:mysql://ipaddress:portnumber/db_name"
-	public static String DB_URL = "jdbc:sqlite:C:\\Users\\fanal\\eclipse-workspace\\teklabframework04\\studentDB.db";
+	public static String DB_URL = "jdbc:sqlite:C:\\Users\\fanal\\eclipse-workspace\\teklabframework04\\DB.db";
 
 	// Constant for Database User name
 	public static String DB_USER = "root";

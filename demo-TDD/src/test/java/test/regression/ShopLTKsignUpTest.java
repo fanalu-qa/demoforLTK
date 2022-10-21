@@ -14,7 +14,7 @@ import page.ShopLTKpwPage;
 public class ShopLTKsignUpTest extends TestBase{
 	
 	@Test
-	public void TestCase_001_CoSignIn() {
+	public void TestCase_001_SignUp() {
 		logger = extent.createTest("TestCase_001_signUp");
 
 		// test data
